@@ -18,7 +18,7 @@ const SkillsSection = () => {
       icon: <Smartphone className="w-6 h-6" />,
       color: "primary",
       skills: [
-        "SwiftUI", "Swift", "Objective-C", "Xcode", "UIKit",
+        "SwiftUI", "Swift", "Objective-C", "XCode", "UIKit",
         "MVVM", "MVVM-C", "MVC", "Unit Testing", "Concurrency",
         "Combine", "Swift Package Manager"
       ]
