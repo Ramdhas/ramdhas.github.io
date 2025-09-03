@@ -5,9 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/ramdhas.github.io/', // Use this if deploying to a custom subfolder; for root domain, leave as '/'
+  base: '/', 
   build: {
-    outDir: 'dist', // Ensure this matches your build output directory
+    outDir: 'docs', // <-- change from 'dist' to 'docs'
   },
   server: {
     host: "::",
